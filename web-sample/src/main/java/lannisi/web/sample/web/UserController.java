@@ -5,7 +5,7 @@
  * Git http://git.oschina.net/zhou666/spring-cloud-7simple
  */
 
-package cloud.simple.web;
+package lannisi.web.sample.web;
 
 import java.util.List;
 
@@ -15,8 +15,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import cloud.simple.model.User;
-import cloud.simple.service.UserService;
+import lannisi.web.sample.model.User;
+import lannisi.web.sample.service.UserService;
 
 
 

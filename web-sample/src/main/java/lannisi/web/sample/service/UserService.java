@@ -4,7 +4,7 @@
  * @author lzhoumail@126.com/zhouli
  * Git http://git.oschina.net/zhou666/spring-cloud-7simple
  */
-package cloud.simple.service;
+package lannisi.web.sample.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +15,7 @@ import org.springframework.web.client.RestTemplate;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
-import cloud.simple.model.User;
+import lannisi.web.sample.model.User;
 
 @Service
 public class UserService {

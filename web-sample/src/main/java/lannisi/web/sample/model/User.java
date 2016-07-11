@@ -4,7 +4,7 @@
  * @author lzhoumail@126.com/zhouli
  * Git http://git.oschina.net/zhou666/spring-cloud-7simple
  */
-package cloud.simple.model;
+package lannisi.web.sample.model;
 
 
 public class User {

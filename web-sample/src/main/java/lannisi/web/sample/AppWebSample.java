@@ -5,7 +5,7 @@
  * Git http://git.oschina.net/zhou666/spring-cloud-7simple
  */
 
-package cloud.simple;
+package lannisi.web.sample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -25,10 +25,10 @@ import feign.Request;
 @EnableEurekaClient
 @EnableCircuitBreaker
 @EnableFeignClients
-public class WebApplication {
+public class AppWebSample {
 
 	public static void main(String[] args) throws Exception {
-		SpringApplication.run(WebApplication.class, args);
+		SpringApplication.run(AppWebSample.class, args);
 	}
 	
 	@LoadBalanced
